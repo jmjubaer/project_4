@@ -1,0 +1,239 @@
+/* =====================common css============ */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-color:#3A3A3A;
+    --secendery-color: #5E6366;
+    --primary-fonts:'Poppins', sans-serif;
+    --second-font:'Inter', sans-serif;
+
+}
+body{
+    font-size: 16px;
+    font-family: var(--primary-fonts);
+    color: #3A3A3A;
+}
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1{
+    font-size: 52px;
+    line-height: 70px;
+}
+h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+h2{
+    font-size: 38px;
+}
+h4{
+    margin-top: 16px;
+    font-size: 28px ;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 24px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #E02C6D;
+    border: 0;
+    margin-top: 16px;
+}
+.btn i{
+    margin-left: 8px;
+}
+section{
+    width: 1110px;
+    max-width: 95%;
+    margin: auto;
+}
+.container{
+    width: 1200px;
+    max-width: 98%;
+    margin: auto;
+}
+/* =====================navigation area=============== */
+header{
+    margin: 50px 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 34px;
+}
+.menu ul a{
+    font-size: 16px;
+}
+.mobile_menu{
+    display: none;
+}
+/* ======================Banner area===================== */
+.banner_area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner_text{
+    width: 50%;
+}
+.banner_text p{
+    width: 90%;
+}
+.banner_text .btn{
+    border-radius: 41px;
+}
+.banner_area .banner_image{
+    background: url("../img/images/background.svg") no-repeat;
+    width: 40%;
+    background-size: contain;
+}
+/* ======================Logo container=============== */
+.logo_container{
+    height: 110px;
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    justify-content: space-around;
+    border: 2px solid #AAAAAA;
+    border-width: 1px 0 1px 0;
+}
+.logo_container img{
+    width: auto;
+}
+/*==================== product area1=============== */
+.product_area{
+    overflow: hidden;
+    margin: 100px 0;
+}
+.product_container{
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    justify-content: space-evenly;
+    margin: 30px 0 50px;
+    grid-gap: 30px;
+}
+.product_container .product{
+    padding: 17px 15px;
+    box-shadow: 0 0 20px 5px #ddd;
+    border-radius: 5px;
+}
+.product_container .product span{
+    font-family: var(--second-font) ;
+    font-size: 24px;
+    line-height: 150%;
+}
+.review{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.review i{
+    color: #FB8200;
+}
+.review .rating{
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.product_dis{
+    width: 60%;
+}
+.product_dis p{ 
+    font-family: var(--second-font);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+}
+.more_btn{
+    display: block;
+    float: right;
+    clear: both;
+    color: #E02C6D;
+    font-weight: 700;
+}
+
+/* ==========================Features area==================== */
+.feature_area{
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+.feature_iamge{
+    width: 30%;
+}
+.feature_text{
+    width: 60%;
+}
+.feature_text p{
+    font-weight: 700;
+    margin-top: 16px;
+}
+/* ======================Footer area================= */
+footer{
+    background-color: #0A0826;
+    color: #fff;
+    padding: 50px 0 ;
+    text-align: center;
+}
+footer h5{
+    font-size: 24px;
+}
+footer span{
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+footer ul{
+    margin-top: 17px;
+}
+footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 8px;
+}
+footer ul li a{
+    width: 32px;
+    height: 32px;
+    background-color: #5E6366;
+    color: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+footer ul li a:hover{
+    background: #E02C6D;
+}
+footer ul li a i{
+    margin-top: 8px;
+}
+
+
+
+
+
+
